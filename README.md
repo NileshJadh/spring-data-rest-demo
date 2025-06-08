@@ -62,9 +62,9 @@ A demo project showcasing the use of **Spring Boot Data REST** and **Spring Data
 2. Configure the database in `src/main/resources/application.properties`:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/vicky_db
-   spring.datasource.username=root
-   spring.datasource.password=Nilesh@123
+   spring.datasource.url=database_url
+   spring.datasource.username=data_username
+   spring.datasource.password=database_password
    spring.jpa.hibernate.ddl.auto=update
    ```
 
